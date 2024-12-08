@@ -1,0 +1,22 @@
+{
+    "name": "globalobject-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "deno --watch --unstable-sloppy-imports ./src/main.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/cors": "^2.8.17",
+        "@types/express": "^5.0.0",
+        "typescript": "^5.7.2"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.21.1",
+        "socket.io-client": "^4.8.1"
+    }
+}

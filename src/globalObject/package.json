@@ -1,0 +1,28 @@
+{
+    "name": "global-object-server",
+    "version": "0.0.2",
+    "description": "globalObject is a network communication protocol that allows the client and server to communicate reactively. The essence of global objects is that changing such an object on one device changes it everywhere else. This allows you to write high-level code for network communication and not think about data transmission",
+    "main": "index.ts",
+    "type": "module",
+    "keywords": [
+        "globalobject",
+        "globalObject",
+        "global-object server",
+        "network protocol",
+        "reactivity",
+        "fast",
+        "client-server",
+        "server",
+        "web sockets",
+        "sockets"
+    ],
+    "author": "QWERN-9876r",
+    "license": "ISC",
+    "devDependencies": {
+        "typescript": "^5.6.3"
+    },
+    "dependencies": {
+        "socket.io": "^4.8.1",
+        "uuid": "^11.0.3"
+    }
+}

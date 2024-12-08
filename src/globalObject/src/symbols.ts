@@ -1,0 +1,6 @@
+export const staticObject = Symbol('staticObject')
+export const id = Symbol('id')
+export const serverWs = Symbol('serverWs')
+export const connections = Symbol('connections')
+export const serverConnections = Symbol('serverConnections')
+export const shouldReSend = Symbol('shouldReSend')
