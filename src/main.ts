@@ -29,12 +29,12 @@ GlobalObject.config.server = server
 const gObj = GlobalObject.create([
     {
         author: 'Bob',
-        text: 'Hi',
+        text: 'Бу',
         time: Date.now(),
     },
     {
         author: 'Alice',
-        text: 'Hello',
+        text: 'Не бойся',
         time: Date.now() + 10000,
     },
 ] satisfies Message[])
